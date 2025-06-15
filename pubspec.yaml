@@ -1,0 +1,29 @@
+
+name: fan_zone
+description: تطبيق تفاعلي للجمهور الرياضي العربي باستخدام Flutter + Firebase + GPT
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.6
+  flutter_dotenv: ^5.1.0
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
